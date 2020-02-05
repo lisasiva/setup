@@ -21,6 +21,13 @@ gem install rails
 # Need to run this code any time we install a new gem
 rbenv rehash
 
+### Check installations
+# brew -v
+# ruby -v
+# rails -v
+# yarn --version
+
+
 ### Debugging Rails installation
 ## Could not find valid gem rails
 # https://bundler.io/v1.16/guides/rubygems_tls_ssl_troubleshooting_guide.html
@@ -34,12 +41,6 @@ rbenv rehash
 
 ## Webpacker configuration file not found
 # rails webpacker:install
-
-### Check installations
-# brew -v
-# ruby -v
-# rails -v
-# yarn --version
 
 
 ### Create Rails Test app
