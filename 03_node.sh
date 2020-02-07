@@ -1,7 +1,7 @@
 # Make nvm() shell function from nvm.sh available
 . ~/.nvm/nvm.sh
 . ~/.bash_profile
-. ~/.bashrc
+#. ~/.bashrc
 
 # Install latest version:
 # nvm install node

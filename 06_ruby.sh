@@ -1,6 +1,6 @@
 # Install Homebrew - for admin users
 # For Standard users: https://www.notion.so/lisasiva/Set-Up-Ruby-Rails-66f185b0bbfb41598478fcf32c8de2b5
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install rbenv
 brew install rbenv ruby-build
@@ -10,10 +10,10 @@ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_pr
 source ~/.bash_profile
 
 # Install Ruby - this may take 15-20m
-rbenv install 2.7.0
+rbenv install 2.5.7
 
 # Tell Ruby to use this version for everything
-rbenv global 2.7.0
+rbenv global 2.5.7
 
 # Install Rails
 gem install rails
@@ -34,6 +34,7 @@ rbenv rehash
 
 ## You don't have permission
 # https://github.com/rbenv/rbenv/issues/938
+# Did you rbenv global <version>?
 
 ## Yarn not installed
 # brew install yarn
@@ -41,7 +42,6 @@ rbenv rehash
 
 ## Webpacker configuration file not found
 # rails webpacker:install
-
 
 ### Create Rails Test app
 # rails new test_app
